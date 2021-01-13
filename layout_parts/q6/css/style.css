@@ -2,4 +2,70 @@
 
 /* 回答はここに書いてね */
 
+/* q6-1の回答 */
+.layout {
+  width: 90px;
+  padding: 10px 0;
+  background-color: #e6f2ff;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.text_margin {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* q6-2の回答 */
+.layout-2 {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.q6_table {
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-content {
+  display: inline-block;
+}
+
+.q6_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q6_position {
+  position: relative;
+}
+
+.q6_position-fix {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.q6_position-var {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
 /* 回答はここに書いてね */
