@@ -7,28 +7,28 @@
   border-collapse: collapse;
 }
 
-.table_header, .table_data {
+.q3_table th, td {
   padding: 10px 0;
   border: solid #dedede 1px;
 }
 
-.table_header {
+.q3_table th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.table_data {
+.q3_table td {
   text-align: center;
   font-size: 16px;
   line-height: 22px;
 }
 
-.row:nth-child(2n+1) {
+.q3_table tr:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
-.row:last-child {
+.q3_table tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

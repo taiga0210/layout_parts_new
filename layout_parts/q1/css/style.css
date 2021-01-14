@@ -10,17 +10,18 @@
   width: 940px;
   background-color: #eff3f4;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .content {
   background-color: #3274ae;
   padding: 20px;
-  margin: 20px 20px 20px 0;
+  margin-left: 20px;
   float: left;
 }
 
 .content:first-child {
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 .content-box {

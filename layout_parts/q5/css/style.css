@@ -10,6 +10,7 @@
 }
 
 .square {
+  position: absolute;
   width: 100px;
   height: 100px;
   text-align: center;
@@ -18,7 +19,6 @@
 
 .box-1 {
   background-color: #ffefd3;
-  position: absolute;
   top: 40px;
   left: 200px;
 }
@@ -36,21 +36,18 @@
 
 .box-2 {
   background-color: #7084de;
-  position: absolute;
   top: 120px;
   left: 280px;
 }
 
 .box-3 {
   background-color: #d0ecea;
-  position: absolute;
   top: 200px;
   left: 360px;
 }
 
 .box-4 {
   background-color: #8b7a5e;
-  position: absolute;
   top: 280px;
   left: 280px;
   z-index: 1;
@@ -58,7 +55,6 @@
 
 .box-5 {
   background-color: #9fd6d2;
-  position: absolute;
   top: 360px;
   left: 200px;
   z-index: 2;
@@ -66,7 +62,6 @@
 
 .box-6 {
   background-color: #fffee4;
-  position: absolute;
   top: 280px;
   left: 120px;
   z-index: 3;
@@ -74,7 +69,6 @@
 
 .box-7 {
   background-color: #deae70;
-  position: absolute;
   top: 200px;
   left: 40px;
   z-index: 4;
@@ -82,7 +76,6 @@
 
 .box-8 {
   background-color: #de70cf;
-  position: absolute;
   top: 120px;
   left: 120px;
   z-index: 5;
