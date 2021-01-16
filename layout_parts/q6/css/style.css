@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 
 /* q6-1の回答 */
-.layout {
+.blue-box {
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
@@ -18,12 +18,11 @@
 }
 
 .text_margin {
-  text-align: center;
   margin: 0 auto;
 }
 
 /* q6-2の回答 */
-.layout-2 {
+.white-box {
   background-color: #fff;
   padding: 10px;
 }
@@ -34,12 +33,7 @@
 
 .table-cell {
   display: table-cell;
-  text-align: center;
   vertical-align: middle;
-}
-
-.table-content {
-  display: inline-block;
 }
 
 .q6_flex {
