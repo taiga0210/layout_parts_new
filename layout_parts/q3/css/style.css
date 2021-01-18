@@ -7,7 +7,8 @@
   border-collapse: collapse;
 }
 
-.q3_table th, td {
+.q3_table th,
+.q3_table td {
   padding: 10px 0;
   border: solid #dedede 1px;
 }
@@ -25,10 +26,10 @@
   line-height: 22px;
 }
 
-.q3_table tr:nth-child(2n+1) {
+.q3_table tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
-.q3_table tr:last-child {
+.tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

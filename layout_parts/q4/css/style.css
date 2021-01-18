@@ -11,8 +11,12 @@
   width: 100%;
 }
 
+.table {
+  margin-top: 20px;
+}
+
 .table:first-child {
-  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .table_cell {

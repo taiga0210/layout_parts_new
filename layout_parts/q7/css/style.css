@@ -12,10 +12,11 @@
   float: left;
   width: 225px;
   box-sizing: border-box;
+  margin-left: 50px;
 }
 
 .float-box:first-child {
-  margin-right: 50px;
+  margin-left: 0;
 }
 
 /* tableでの横並び */
@@ -26,10 +27,11 @@
 .q7_table-cell {
   display: table-cell;
   vertical-align: middle;
+  padding-left: 50px;
 }
 
 .q7_table-cell:first-child {
-  padding-right: 50px;
+  padding-left: 0;
 }
 
 .q7_table-text {
@@ -45,10 +47,11 @@
   display: inline-block;
   box-sizing: border-box;
   vertical-align: middle;
+  margin-left: 50px;
 }
 
 .q7_inline:first-child {
-  margin-right: 50px;
+  margin-left: 0;
 }
 
 .font_0 {
